@@ -1,2 +1,2 @@
-# Hair-Fashiom
-projecto salao
+# Hair-Fashion
+ projecto salao
