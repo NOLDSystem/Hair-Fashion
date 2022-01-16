@@ -1,0 +1,138 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+     :root {
+        --cor0: #59ADA8;
+        --cor1: #78CCA2;
+        --cor2: #66787A;
+        --cor3: #E49B9C;
+        --cor4: #893962;
+    }
+    
+    body {
+        background: linear-gradient(to right, #893962, #E49B9C, #78CCA2, #59ADA8, #E49B9C, #893962);
+    }
+    
+    header {
+        background-attachment: fixed;
+        background-color: #893962;
+        height: 150px;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+    }
+    
+    .cabeca {
+        display: flex;
+        justify-content: end;
+        margin-top: 40px;
+        background-image: url(./img/favicon.ico);
+    }
+    
+    form>h1 {
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: italic;
+        background-attachment: fixed;
+    }
+    
+    form>p {
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: italic;
+        margin: 10px;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 20px;
+    }
+    
+    nav>a {
+        text-decoration: none;
+        color: black;
+        border: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+    }
+    
+    nav>a:hover {
+        background-color: var(--cor3);
+        color: var(--cor2);
+    }
+    
+    .main {
+        margin: auto;
+        width: 50%;
+        background-color: white;
+        padding: 10px;
+        min-width: 400px;
+        border-bottom: 2px solid #66787A;
+    }
+    
+    .perfil {
+        display: inline-block;
+    }
+    
+    .perfil#foto_perfil {
+        width: 35px;
+        height: 40px;
+        padding: 10px;
+        border: 3px solid black;
+        border-radius: 50%;
+        margin: 0px 20px 0px 10px;
+    }
+    
+    .perfil#usuario {
+        color: black;
+    }
+    
+    .public {
+        width: 100%;
+        height: 500px;
+        background-color: white;
+    }
+    
+    .midia {
+        height: 70%;
+        margin: 5px;
+        background-color: transparent;
+        border: 2px solid var(--cor4);
+    }
+    
+    .midia>img {
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        min-width: 300px;
+    }
+    
+    .midia_comment>a {
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .reaccao {
+        display: inline-flex;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .midia_comment>button {
+        background-color: #66787A;
+    }
+    
+    footer {
+        background-attachment: fixed;
+        background-color: var(--cor3);
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font: optional;
+        margin-top: 50px;
+        padding: 10px;
+    }
