@@ -1,3 +1,4 @@
+    @charset "UTF-8";
     * {
         padding: 0px;
         margin: 0px;
@@ -9,6 +10,21 @@
         --cor2: #66787A;
         --cor3: #E49B9C;
         --cor4: #893962;
+    }
+    
+    @font-face {
+        font-family: 'Love Light';
+        src: url('../fonts/Love_Light/LoveLight-Regular.ttf') format('truetype');
+    }
+    
+    @font-face {
+        font-family: 'Monsier';
+        src: url('../fonts/Monsieur_La_Doulaise/MonsieurLaDoulaise-Regular.ttf') format('truetype');
+    }
+    
+    @font-face {
+        font-family: 'tanjerine';
+        src: url('../fonts/Tangerine/Tangerine-Bold.ttf') format('truetype');
     }
     
     body {
@@ -25,30 +41,25 @@
         min-width: 400px;
     }
     
-    .cabeca {
-        display: flex;
-        justify-content: end;
-        margin-top: 40px;
-        background-image: url(./img/favicon.ico);
-    }
-    
     form>h1 {
         text-align: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'tanjerine';
         font-style: italic;
         background-attachment: fixed;
+        font-size: 50px;
+        margin-top: 10px;
     }
     
     form>p {
         text-align: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-style: italic;
+        font-family: 'Love Light';
         margin: 10px;
+        font-size: 20px;
     }
     
     nav {
         display: flex;
-        justify-content: end;
+        justify-content: space-evenly;
         margin: 0px 50px 0px 50px;
     }
     
